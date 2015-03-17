@@ -1,0 +1,202 @@
+@charset "UTF-8";
+/* CSS Document */
+html{
+	 height: 100%;
+	 }
+body {
+	text-align:center;
+	height: 100%;
+	margin: 0;
+	font-family: Tahoma, Geneva, sans-serif;
+	letter-spacing: 2px;
+	background:#BAAC95;
+	}
+.header{
+	text-align:center;
+	width:100%;
+	height:4.5em;
+	display:block;
+	background-color:#fff;
+	box-shadow:2px 3px 5px #333;
+}
+#personal{
+	margin-top:10px;
+	margin-right:5em;
+	text-align:right;
+	}
+.title{
+	color:white;
+}
+.welcome{
+	overflow: hidden;	
+	}
+.logo{
+	text-align:center;
+	width:200px;
+	height:4.5em;
+	background-color:#E46B56;
+	float:left;
+	}
+.contain{
+	width: 100%;
+	padding: 0px;
+    }
+.col-left {
+	background: #594A48;
+	bottom:0;
+	left:0;
+	position:absolute;
+	top:4.5em;
+	width: 200px;
+	text-align:left;
+}
+.col-remaining { 
+	background:#BCAD94;
+	overflow: hidden;
+	position:fixed;
+	right:0;
+	left:200px;
+	height:100%;
+}
+.logoimg {
+	/* [disabled]top: 0.5em; */
+	margin-top: 0.4em;
+}
+
+.con-left{
+	background: #F4F2DF;
+	width: 658px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+	}
+	
+	
+
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul {
+    width: 200px;
+}
+.col-left li {
+    border-bottom: 1px solid #ccc;
+}
+li a {
+    display: block;
+}
+ul > li.panel {
+    margin: 0;
+}
+ul > li.panel > a {
+	text-decoration:none;
+    line-height: 2em;
+    color: #fff;
+    padding: 5px;
+    background:  #594A48;
+}
+ul > li.panel > a:hover {
+    color: white;
+    text-decoration: none;
+    background: #aaa;
+}
+ul li.panel:hover > ul {
+  display: block; /* 滑鼠滑入母選單後，顯示子選單 */
+}
+ul > li.panel > ul {
+	display:none;
+    background: #826C69;
+}
+ul > li.panel > ul > li {
+    line-height: 2em;
+}
+ul > li.panel > ul > li > a {
+	text-decoration:none;
+    color: white;
+    padding: 0 0 0 10px;
+}
+ul > li.panel > ul > li > a:hover {
+    background: #bbb;
+}
+
+h1{
+	font-size:1.5em
+}
+h3{
+	font-size:1.2em
+	}
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.show{
+	display: block;
+	}
+.hide{
+	display: none;
+	}
+.match{
+	padding:20px;
+	text-align:center;
+	margin-left:7%;
+	margin-right:7%;
+	border-bottom:2px solid #CCC;
+	}
+.PersonHeader{
+	height:150px;
+	padding:20px;
+	margin-left:7%;
+	margin-right:7%;
+	border-bottom:2px solid #CCC;
+	}
+.PersonalImage{
+	float:left;
+	padding-left:40px;
+	padding-top:30px;
+	}
+.PersonalDetail{
+	float:right;
+	width:60%;
+	text-align:left;
+	}
+.CollegeIcon{
+	float:right;
+	padding-top:20px;
+	padding-right:15px;
+	}
+.PersonContent{
+	padding:20px;
+	margin-left:7%;
+	margin-right:7%;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:5px;
+	padding-right:5px;
+	text-align:center;
+	border-bottom:2px solid #CCC;
+	font:Tahoma, Geneva, sans-serif;
+	font-size:16px;
+	letter-spacing:1px;
+	}
+.PersonSkills{
+	padding:20px;
+	text-align:left;
+	margin-left:7%;
+	margin-right:7%;
+	border-bottom:2px solid #CCC;
+	font:Tahoma, Geneva, sans-serif;
+	letter-spacing:1px;
+	}
+.PersonSkills p{
+	font-size:16px;	
+	}
+.signout{
+	margin-left:5px;
+	float: right;
+	margin-top:1.5em;
+	}

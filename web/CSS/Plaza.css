@@ -1,0 +1,278 @@
+@charset "UTF-8";
+/* CSS Document */
+html{
+	 height: 100%;
+	 }
+body {
+	text-align:center;
+	height: 100%;
+	margin: 0;
+	font-family:Tahoma, Geneva, sans-serif;
+	letter-spacing: 2px;
+	background:#BAAC95;
+	}
+.header{
+	text-align:center;
+	width:100%;
+	height:4.5em;
+	display:block;
+	background-color:#fff;
+	position:fixed;
+	z-index:5;
+}
+#personal{
+	margin-top:10px;
+	margin-right:5em;
+	text-align:right;
+	}
+#personal h5{
+	margin-left:10px;
+	float:right;}
+.title{
+	color:white;
+}
+.welcome{
+	overflow: hidden;	
+	}
+.logo{
+	text-align:center;
+	width:200px;
+	height:4.5em;
+	background-color:#E46B56;
+	float:left;
+	}
+.contain{
+	width: 100%;
+	padding: 0px;
+    }
+.col-left {
+	background: #594A48;
+	bottom:0;
+	position:fixed;
+	top:4.5em;
+	width: 200px;
+	text-align:left;
+	z-index:5;
+}
+
+.logoimg {
+	/* [disabled]top: 0.5em; */
+	margin-top: 0.4em;
+}
+
+.con-left{
+	background:#F4F2DF;
+	position:absolute;
+	width:52em;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-bottom:50px;
+	padding-bottom:50px;
+	
+	}
+.con-left ul, li{
+	list-style: none;
+    padding: 0;
+    margin: 0;
+	}
+.con-left ul{
+    width: 200px;
+	}
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul {
+    width: 200px;
+}
+.col-left li {
+    border-bottom: 1px solid #ccc;
+}
+li a {
+    display: block;
+}
+ul > li.panel {
+    margin: 0;
+}
+ul > li.panel > a {
+	text-decoration:none;
+    line-height: 2em;
+    color: #fff;
+    padding: 5px;
+    background:  #594A48;
+}
+ul > li.panel > a:hover {
+    color: white;
+    text-decoration: none;
+    background: #aaa;
+}
+ul li.panel:hover > ul {
+  display: block; 
+}
+ul > li.panel > ul {
+	display:none;
+    background: #826C69;
+}
+ul > li.panel > ul > li {
+    line-height: 2em;
+}
+ul > li.panel > ul > li > a {
+	text-decoration:none;
+    color: white;
+    padding: 0 0 0 10px;
+}
+ul > li.panel > ul > li > a:hover {
+    background: #bbb;
+}
+.col-remaining { 
+	background:#BCAD94;
+	position:relative;
+	right:0;
+	display:inline-block;
+	margin-top:6em;
+	padding-left:1em;
+	letter-spacing:normal;
+	word-spacing:normal;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	margin-left:200px;
+}
+.con-main{
+	display:inline-block;
+	width:900px;
+	}
+.con-header{
+	display:inline-block;
+	width:100%;
+	background-color:#F4F1E0;
+	border-radius:3px;
+	padding:15px 0;
+	overflow:hidden;
+	font-size:12px;
+	letter-spacing:normal;
+	word-spacing:normal;
+	font:Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	margin-bottom:2em;
+	}
+.T-Input{
+	background-color:#FFF;
+	height:90px;
+	width:850px;
+	border-style:solid;
+	border-width:1px;
+	box-shadow:0 0 3px 0 rgba(0, 0, 0, 0.15) inset;
+	position:relative;
+	padding:8px;
+	overflow-x:hidden;
+	overflow-y:auto;
+	}
+.TextBottom {
+	padding-top:7px;
+	display:inline-block;
+	width:100%;
+	}
+.ReqSkill{
+	float:left;
+	padding-left:20px;
+	padding-top:7px;
+	}
+.ReqButton{
+	float:right;
+	padding-right:20px;
+	}
+.ReqPost{
+	background-color:#D7765E;
+	border-style:solid;
+	border-width:1px;
+	border-radius:5px;
+	width:10em;
+	height:2em;
+	color:#FFF;
+	font-size:18px;
+	}
+.con-exh{
+	margin:0;
+	padding:0;
+	font-size:12px;
+	letter-spacing:normal;
+	word-spacing:normal;
+	}
+.InfoExh{
+	display:inline-block;
+	width:100%;
+	background-color:#F4F1E0;
+	border-radius:3px;
+	margin-top:0.5em;
+	margin-bottom:2em;
+	overflow:scroll;
+	}
+.InfoDetail{
+	padding:10px 16px 10px 10px;
+	display:block;
+	}
+.InfoFace{
+	float:left;
+	padding:5px;
+	}
+.InfoContent{
+	display:block;
+	padding:5px;
+	}
+.InfoUser{
+	margin-left:70px;
+	text-align:left;
+	}
+.InfoUser h2{
+	margin-top:5px;
+	font-size:24px;
+	margin-bottom:5px;
+	}
+.InfoText{
+	text-height:20px;
+	overflow:hidden;
+	font-size:16px;
+	text-align:left;
+	margin-left:70px;
+	width:760px;
+	}
+.InfoText p{
+	margin-top:0;
+	}
+.InfoTage{
+	overflow:hidden;
+	font-size:16px;
+	word-spacing:normal;
+	letter-spacing:normal;
+	line-height:normal;
+	background-color:#FFF;
+	height:40px;
+	}
+.Tages{
+	list-style:outside none none;
+	border-top-style: solid;
+	border-top-width:1px;
+	border-color:#B9AC96;
+	width:100%;
+	}
+.Tages li{
+	width:33%;
+	float:left;
+	display:inline;
+	padding:5px 0px;
+	}
+.pos{
+	text-align:center;
+	border-left-style:solid;
+	border-left-width:1px;
+	display:block;
+	height:28px;
+	line-height:28px;
+	border-color:#B9AC96;
+	}
+.signout{
+	margin-left:5px;
+	float: right;
+	margin-top:1.5em;
+	}
