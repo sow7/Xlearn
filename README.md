@@ -1,0 +1,5 @@
+# Xlearn
+The Course Project of INFSCI 2560 WEB TECHNOLOGIES &amp; STANDARDS 
+# 1.	Introduction
+Nowadays, with the development of information technologies, new learning methods like online learning take the place of classes based learning by degrees. Today, if we were facing some unknown concepts, the first thought flashes upon our minds is Google or Internet rather than teacher. Google always can provide short and clear courses for us in the form of text, video or other media. However, even though face to face communication is not necessary for teaching today, it is still one of the most efficient ways to learn knowledge, especially for learning languages and music instruments. Taking English learning as an example, learner can practice oral English through face to face communication with native speaker. At the meanwhile, the native speaker can also learn the other language from the learner. Based on these facts, our group came up with an idea of building a website to help people find a learning partner. 
+# 2.	Flow chart
